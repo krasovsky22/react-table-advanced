@@ -1,0 +1,61 @@
+{
+  "name": "react-table-advanced",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "start": "webpack-dev-server --open --mode development --liveReload",
+    "start:live": "webpack-dev-server --open --mode development --liveReload"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "7.9.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-table": "^7.7.2",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^1.13.2",
+    "css-loader": "^3.5.3",
+    "esbuild-loader": "^2.15.0",
+    "html-webpack-plugin": "^4.5.0",
+    "json-loader": "^0.5.7",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "beautiful-react-hooks": "^0.35.0",
+    "bootstrap": "^5.1.0",
+    "eslint": "^7.32.0",
+    "faker": "^5.5.3",
+    "moment": "^2.29.1",
+    "path-browserify": "^1.0.1",
+    "react": "^16.13.0",
+    "react-calendar": "^3.4.0",
+    "react-dom": "^16.13.0",
+    "react-script": "^2.0.5",
+    "react-table": "^7.7.0",
+    "react-uid": "^2.3.1",
+    "reactstrap": "^8.9.0",
+    "styled-components": "^5.3.0"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "browser": {
+    "path": "path-browserify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
